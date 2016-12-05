@@ -1,7 +1,7 @@
 ###Tutorials using Docker Compose
 
 This repository contains a simple Node.js app and a Docker Compose file.
-The intent of this project is to show you you how to use Docker Compose to make it super easy to download, run, and experiment with tutorials.
+The intent of this project is to show you how to use Docker Compose to make it super easy to download, run, and experiment with tutorials.
 The Docker Compose configuration maps a Docker volume to the local src folder.
 This allows you to make changes in your local src folder and have them reflected in your Docker container.  
 
