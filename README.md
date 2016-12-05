@@ -13,6 +13,6 @@ cd tutorial-docker-compose-nodejs-intro
 docker-compose up -d
 ```
 
-After running `docker-compose up -d` you can access the sample application at http://<DOCKER-HOST-IP>:33000/.
+After running `docker-compose up -d` you can access the sample application at [http://DOCKER-HOST-IP:33000/](http://localhost:33000).
 
 You can learn more by watching the YouTube video [here](https://youtu.be/6fyKSu1cxGc).
