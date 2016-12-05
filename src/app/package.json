@@ -5,7 +5,7 @@
   "author": "Mark Watson <markwatsonatx@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "npm install && nodemon -L server.js"
+    "start": "npm install && nodemon -L --debug server.js"
   },
   "dependencies": {
     "express": "^4.13.3",

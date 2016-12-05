@@ -5,6 +5,6 @@ services:
     volumes:
       - ./src/app:/usr/src/app
     working_dir: /usr/src/app
-    command: npm start
+    command: bash -c "rm -rf node_modules && npm start"
     ports:
       - "33000:3000"
