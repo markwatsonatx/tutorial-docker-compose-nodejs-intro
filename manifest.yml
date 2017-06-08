@@ -1,5 +1,6 @@
 applications:
-- path: .
+- path: ./src/app
+  command: node index.js
   memory: 128M
   instances: 1
   domain: mybluemix.net
