@@ -1,12 +1,16 @@
-var config = require('./config');
-var express = require('express');
+const cfenv = require('cfenv');
+const express = require('express');
 
-var app = express();
+const appEnv = cfenv.getAppEnv();
+const app = express();
 
 // serve static files from ./public
 app.use(express.static(__dirname + '/public'));
 
+const port = appEnv.isLocal ? 3000 : appEnv.port;
+const hostname = appEnv.isLocal ? '0.0.0.0' : appEnv.bind;;
+
 // start server
-app.listen(config.express.port, '0.0.0.0', function() {
-  console.log('Server started on port ' + config.express.port + '.')
+app.listen(port, hostname, function() {
+  console.log(`Server started on ${hostname}:${port}.`)
 });

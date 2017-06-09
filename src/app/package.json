@@ -8,6 +8,7 @@
     "start": "npm install && nodemon -L --debug server.js"
   },
   "dependencies": {
+    "cfenv": "^1.0.4",
     "express": "^4.13.3",
     "nodemon": "^1.9.2"
   }
