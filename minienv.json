@@ -1,0 +1,15 @@
+{
+  "editor" : {
+    "hide": false 
+  },
+  "proxy": {
+    "ports": [
+      {
+        "port": 33000,
+        "hide": false,
+        "name": "Node.js",
+        "path": "/"
+      }
+    ]
+  }
+}
