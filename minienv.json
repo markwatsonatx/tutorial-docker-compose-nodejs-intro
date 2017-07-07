@@ -1,6 +1,7 @@
 {
   "editor" : {
-    "hide": false 
+    "hide": false,
+    "srcDir": "src/app" 
   },
   "proxy": {
     "ports": [
