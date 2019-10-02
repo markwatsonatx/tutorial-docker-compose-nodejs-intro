@@ -1,0 +1,10 @@
+disabled: false
+metadata:
+  editorTab:
+    hide: false
+    srcDir: "src/app"
+  appTabs:
+  - port: 33000
+    hide: false
+    name: "Node.js"
+    path: "/"
